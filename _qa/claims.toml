@@ -83,7 +83,7 @@ args = { source = "_brand/build_notarize_page.py", pattern = "(name:'Ed25519')" 
 id = "hearth-record-count"
 page = "builds/index.html"
 derive = "external"
-note = "60,000+ records is produced by the Hearth pipeline in another repo; re-derive there, not here"
+note = "44,000+ year-round (44,773 active on 2026-10-09; more in summer with USDA meal sites) comes from the Hearth pipeline in another repo; re-derive with: curl -s https://hearth-directory.automaticworkflowllc.workers.dev/health (data.activeResources)"
 
 # --- how many tools, and whether any of them phones home ------------------
 # These two facts are the same sentence on every page that says them, so one
