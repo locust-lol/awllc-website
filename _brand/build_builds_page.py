@@ -335,11 +335,11 @@ ENGINEERING = [
      "deliberately, because a ledger holding only clean runs is one nobody should believe.",
      ["Live", "Evidence"]),
     ("Hearth", "https://automatedworkflowllc-design.github.io/hearth/",
-     "A national crisis-resource directory &mdash; food, shelter, health, legal, support &mdash; "
-     "built on federal data (HRSA, SAMHSA, USDA, EPA/Hunger Free America) and refreshed "
-     "automatically.",
-     "60,000+ live records. Its public health endpoint reports freshness per source, so a stale "
-     "feed cannot hide behind a fresh one.",
+     "A national help directory &mdash; food, health care, mental-health and substance-use "
+     "services &mdash; built on federal data (HRSA, SAMHSA, USDA, EPA/Hunger Free America) and "
+     "refreshed automatically. Shelter and legal aid are not in it yet; it sends those needs to 211.",
+     "44,000+ live records year-round, more in summer while USDA meal sites are open. Its public "
+     "health endpoint reports freshness per source, so a stale feed cannot hide behind a fresh one.",
      ["Live", "Public good", "Open data"]),
     ("Build log", "/build-log/",
      "How the multi-tenant reporting pipeline behind Automated Workflow is actually assembled "
