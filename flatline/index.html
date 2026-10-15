@@ -398,27 +398,6 @@ flatline jobs</pre>
     <p style="margin:.6rem 0 0"><a href="https://github.com/automatedworkflowllc-design/flatline">Source and documentation on GitHub &rarr;</a></p>
   </div>
 
-  <div class="fl-run">
-    <h2 style="margin-top:0">Its other half: canary</h2>
-    <p style="color:var(--ink-soft);margin-top:.3rem">flatline waits to be asked. That is backwards
-    &mdash; the people who most need the check are the ones who never think to run it. So
-    <strong>canary</strong> watches the folders where your exports already get saved and asks
-    flatline the moment a file changes. You save an invoice export at 2:14pm; at 2:15 you know what
-    is wrong with it.</p>
-    <p style="color:var(--ink-soft)"><strong>Software fails loudly. Data fails quietly.</strong>
-    flatline is the judgment &mdash; it decides whether a signal still carries information. canary is
-    the trigger. <strong>Neither tool will ever call a file clean that it failed to read:</strong> a
-    check that could not run is reported as a failure to check, never as a pass &mdash; in code, and
-    with a test, in both.</p>
-    <pre>git clone https://github.com/automatedworkflowllc-design/canary
-pip install ./canary
-canary ~/Downloads --report canary.html</pre>
-    <p style="margin:.6rem 0 0"><a href="/canary/">What canary does, with downloads &rarr;</a>
-    &nbsp; <a href="https://github.com/automatedworkflowllc-design/canary">Source on GitHub</a></p>
-    <p style="margin:.6rem 0 0"><a href="/canary/how-it-works/"><b>How the two work together, end
-    to end &rarr;</b></a> &nbsp;<span style="color:var(--ink-soft);font-size:.9rem">The full
-    pipeline, every verdict, and every exit code.</span></p>
-  </div>
 
   <div class="fl-cta">
     <h2 style="margin-top:0">Or have us point it at your stack</h2>

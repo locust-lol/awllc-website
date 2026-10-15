@@ -267,35 +267,6 @@ ENGINEERING = [
      "Built after a real scheduled job discarded four days of data while reporting success every "
      "run. 136 tests, MIT, public &mdash; the page shows five ways to use it on your own stack.",
      ["Open source", "MIT"]),
-    # Tare deliberately carries no count and no price. Its source is private, so unlike every
-    # other entry in this section a reader cannot go and check a number for themselves - and the
-    # project's own roadmap forbids quoting prices derived from its placeholder development rate.
-    # The chips say what is true rather than what sells: it runs, and nobody is on it.
-    ("tare", "/tare/",
-     "A cost-governance gateway for telemetry. Metrics are billed on how many distinct label "
-     "combinations you send, so one deploy that adds a user ID to a metric can multiply the bill "
-     "overnight &mdash; and you find out weeks later on the invoice.",
-     "It refuses over-budget telemetry <em>before</em> it leaves your network, so the cost is never "
-     "incurred rather than merely recorded as blocked. The large vendors bill runaway cardinality "
-     "as a line item, which makes your mistake their revenue; this caps it instead, which is the "
-     "one position they cannot copy. Sits in front of the backend you already pay for.",
-     ["Working system", "No customers yet"]),
-    ("canary", "/canary/",
-     "The always-on half of flatline. Point it at the folder where your exports already get saved "
-     "and it checks each file the moment it changes &mdash; a column that is one value all the way "
-     "down, a field empty on every row, a report that stopped moving weeks ago.",
-     "Every tool of this kind waits to be asked, which means the people who most need the check "
-     "never run it. This one inverts the trigger. Wheels for both tools download straight from the "
-     "page; it reads only, and nothing leaves the machine.",
-     ["Open source", "MIT", "Download"]),
-    ("attest", "https://github.com/automatedworkflowllc-design/attest",
-     "The primitive the others are built on. Wrap any scheduled command and it writes a signed, "
-     "chained receipt of what the job <em>claimed</em> against what it actually produced &mdash; "
-     "and exits non-zero when a tool reports success without touching its own output.",
-     "0.1.1 closes a gate that was passing silently: a 2.7MB file of 2019 dates satisfied a "
-     "one-day freshness limit, because the date scan gives up above 2MB. The release notes lead "
-     "with that, because it can refuse runs the previous version allowed.",
-     ["Open source", "MIT", "Download"]),
     ("watchpost", "https://github.com/automatedworkflowllc-design/watchpost",
      "Checks the four things between runs: does the output still exist, was it written recently, "
      "is the data <em>inside</em> it current, and has it quietly stopped changing.",
@@ -303,14 +274,6 @@ ENGINEERING = [
      "first production run caught the residue of that same incident &mdash; flagging its own "
      "author's fix as incomplete.",
      ["Open source", "MIT", "Download"]),
-    ("custody", "https://github.com/automatedworkflowllc-design/custody",
-     "A chain of custody for work done by AI: what the model was allowed to read, whether that "
-     "data was current, what it produced, which human signed it off, and whether it later turned "
-     "out to be wrong.",
-     "Built because every company is now letting AI do real work and almost none can answer a "
-     "board, an auditor or an insurer asking how they know it was right. Stale input means the "
-     "model does not run at all; prompts and outputs are hashed, never stored.",
-     ["Open source", "MIT", "New"]),
     ("Notarize a file", "/proof/notarize/",
      "Drop in any file and your browser hashes it and signs a receipt with an Ed25519 key it "
      "generates on your device. Later, drop the file back in &mdash; it tells you whether a single "
@@ -376,10 +339,7 @@ USE = {
     "/automation-monitoring/":       ("anyone already running automations", "the reports you already receive", "$99/mo, weekly evidence"),
     "/proof/notarize/":              ("proving a file has not changed", "the file itself", "seconds, on your device"),
     "/flatline/":                    ("engineers with silent scheduled jobs", "your own stack", "MIT, read the repo"),
-    "https://github.com/automatedworkflowllc-design/attest": ("engineers wrapping scheduled jobs", "your own commands", "MIT, download the wheel"),
     "https://github.com/automatedworkflowllc-design/watchpost": ("anyone whose reports must stay current", "the outputs you already produce", "MIT, download the wheel"),
-    "https://github.com/automatedworkflowllc-design/custody": ("teams putting AI into real workflows", "the code that calls the model", "MIT, download the wheel"),
-    "/canary/":                      ("anyone who sends exports they never check", "a folder where files land", "MIT, download and run"),
 }
 
 

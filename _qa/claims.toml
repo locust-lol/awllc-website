@@ -164,9 +164,11 @@ args = { path = "C:/Users/hisbo/claude/dev/flatline" }
 #   curl -s https://api.github.com/users/automatedworkflowllc-design/repos \
 #     | python -c "import sys,json;print(sum(1 for r in json.load(sys.stdin) if not r['private'] and (r.get('license') or {}).get('spdx_id')=='MIT'))"
 # It read 8 on 2026-08-17 (airlock attest canary custody docket flatline
-# hearth watchpost). tare is PRIVATE and is deliberately not counted.
+# hearth watchpost). It read 5 on 2026-10-14 (flatline hearth locust sabot
+# watchpost) after airlock, attest, canary, custody and vouch were archived and
+# made private. tare is PRIVATE and is deliberately not counted.
 [[claim]]
 id = "workflow-open-source-repos"
 page = "workflow-automation/index.html"
 derive = "external"
-note = "count of PUBLIC MIT repos is GitHub state; this gate is offline by design. Re-derive with the curl in claims.toml; was 8 on 2026-08-17"
+note = "count of PUBLIC MIT repos is GitHub state; this gate is offline by design. Re-derive with the curl in claims.toml; was 5 on 2026-10-14"
