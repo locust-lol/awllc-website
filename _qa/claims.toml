@@ -161,7 +161,7 @@ args = { path = "C:/Users/hisbo/claude/dev/flatline" }
 # without a network still works. So it is honestly UNCHECKABLE here rather
 # than checked against something that only looks like the source of truth.
 # Re-derive with:
-#   curl -s https://api.github.com/users/automatedworkflowllc-design/repos \
+#   curl -s https://api.github.com/users/locust-lol/repos \
 #     | python -c "import sys,json;print(sum(1 for r in json.load(sys.stdin) if not r['private'] and (r.get('license') or {}).get('spdx_id')=='MIT'))"
 # It read 8 on 2026-08-17 (airlock attest canary custody docket flatline
 # hearth watchpost). It read 5 on 2026-10-14 (flatline hearth locust sabot

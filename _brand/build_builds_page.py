@@ -267,7 +267,7 @@ ENGINEERING = [
      "Built after a real scheduled job discarded four days of data while reporting success every "
      "run. 136 tests, MIT, public &mdash; the page shows five ways to use it on your own stack.",
      ["Open source", "MIT"]),
-    ("watchpost", "https://github.com/automatedworkflowllc-design/watchpost",
+    ("watchpost", "https://github.com/locust-lol/watchpost",
      "Checks the four things between runs: does the output still exist, was it written recently, "
      "is the data <em>inside</em> it current, and has it quietly stopped changing.",
      "Written the afternoon a digest of ours served Friday's data under Monday's timestamp. Its "
@@ -297,7 +297,7 @@ ENGINEERING = [
      "It includes the receipts where our own nightly audit produced nothing &mdash; kept "
      "deliberately, because a ledger holding only clean runs is one nobody should believe.",
      ["Live", "Evidence"]),
-    ("Hearth", "https://automatedworkflowllc-design.github.io/hearth/",
+    ("Hearth", "https://locust-lol.github.io/hearth/",
      "A national help directory &mdash; food, health care, mental-health and substance-use "
      "services &mdash; built on federal data (HRSA, SAMHSA, USDA, EPA/Hunger Free America) and "
      "refreshed automatically. Shelter and legal aid are not in it yet; it sends those needs to 211.",
@@ -339,7 +339,7 @@ USE = {
     "/automation-monitoring/":       ("anyone already running automations", "the reports you already receive", "$99/mo, weekly evidence"),
     "/proof/notarize/":              ("proving a file has not changed", "the file itself", "seconds, on your device"),
     "/flatline/":                    ("engineers with silent scheduled jobs", "your own stack", "MIT, read the repo"),
-    "https://github.com/automatedworkflowllc-design/watchpost": ("anyone whose reports must stay current", "the outputs you already produce", "MIT, download the wheel"),
+    "https://github.com/locust-lol/watchpost": ("anyone whose reports must stay current", "the outputs you already produce", "MIT, download the wheel"),
 }
 
 

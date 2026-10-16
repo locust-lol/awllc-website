@@ -34,7 +34,7 @@ TITLE = 'Flatline — Find Automations That Quietly Stopped Working'
 DESC = ('Free open-source tool that finds scheduled jobs and reports that succeed while '
         'doing nothing: dead signals, silent no-ops, swallowed errors. MIT licensed.')
 CANON = 'https://automatedworkflowllc.com/flatline/'
-REPO = 'https://github.com/automatedworkflowllc-design/flatline'
+REPO = 'https://github.com/locust-lol/flatline'
 
 PAGE_CSS = """
 /* ---- flatline explainer ---- */
@@ -180,7 +180,7 @@ MAIN = """
     <h2 style="margin-top:0">Run it yourself</h2>
     <p style="color:var(--ink-soft);margin-top:.3rem">Free, MIT licensed, 136 tests. It reads; it
     does not change anything it looks at.</p>
-    <pre>git clone https://github.com/automatedworkflowllc-design/flatline
+    <pre>git clone https://github.com/locust-lol/flatline
 pip install ./flatline
 flatline scan your-export.csv
 flatline jobs</pre>
@@ -210,7 +210,7 @@ LD = """
   "@type": "SoftwareApplication",
   "name": "Flatline",
   "url": "https://automatedworkflowllc.com/flatline/",
-  "codeRepository": "https://github.com/automatedworkflowllc-design/flatline",
+  "codeRepository": "https://github.com/locust-lol/flatline",
   "applicationCategory": "DeveloperApplication",
   "operatingSystem": "Any",
   "license": "https://opensource.org/licenses/MIT",

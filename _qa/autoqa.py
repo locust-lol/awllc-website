@@ -300,7 +300,7 @@ def check_deploy():
         return
     try:
         out = subprocess.run(
-            ['gh', 'api', 'repos/automatedworkflowllc-design/awllc-website/pages/builds/latest',
+            ['gh', 'api', 'repos/locust-lol/awllc-website/pages/builds/latest',
              '--jq', '.status + " " + .commit + " " + .updated_at'],
             cwd=ROOT, capture_output=True, text=True, timeout=40).stdout.strip()
     except Exception as e:

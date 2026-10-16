@@ -33,7 +33,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 TEMPLATE = ROOT / 'spreadsheet-cleanup-service' / 'index.html'
 # GitHub Pages runs Jekyll here (there is no .nojekyll), so /_brand/ 404s on the
 # live domain -- verified. Anything pointing at a builder must point at the repo.
-REPO = 'https://github.com/automatedworkflowllc-design/awllc-website/blob/main'
+REPO = 'https://github.com/locust-lol/awllc-website/blob/main'
 
 PAGE_CSS = """
 /* ---- worked example ---- */
